@@ -4,7 +4,8 @@ bench() {
         "./rust/target/release/rust" \
         "./chapel/target/release/chapel" \
         "python python/python.py" \
-        "Rscript r/R.r"
+        "Rscript r/R.r" \
+        "julia julia/julia.jl"
 }
 
 bench

@@ -1,6 +1,7 @@
 | Command | Mean [ms] | Min…Max [ms] |
 |:---|---:|---:|
-| `./rust/target/release/rust` | 0.5 ± 0.4 | 0.1…2.4 |
-| `./chapel/target/release/chapel` | 14.9 ± 1.9 | 12.3…23.3 |
-| `python python/python.py` | 18.8 ± 2.2 | 16.0…27.9 |
-| `Rscript r/R.r` | 164.6 ± 6.8 | 155.1…181.3 |
+| `./rust/target/release/rust` | 0.6 ± 0.3 | 0.2…5.2 |
+| `./chapel/target/release/chapel` | 15.1 ± 1.7 | 11.3…19.5 |
+| `python python/python.py` | 18.5 ± 1.6 | 16.3…23.5 |
+| `Rscript r/R.r` | 163.0 ± 4.7 | 156.6…174.6 |
+| `julia julia/julia.jl` | 658.9 ± 20.2 | 634.1…701.6 |
